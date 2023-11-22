@@ -5,7 +5,10 @@ export default class Comp2 extends Component {
     let name = "Diana";
     return (
       <div>
-        <h1> hello {name}</h1>
+        <h1>
+          {" "}
+          Hello {name} {this.props.lastname}
+        </h1>
       </div>
     );
   }
